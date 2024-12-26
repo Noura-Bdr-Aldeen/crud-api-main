@@ -29,7 +29,7 @@ const AddUser = () => {
     const { mutate }: any = useAddUser()
     const router = useRouter();
 
-    const onAddUser = async () => {
+    const onAddUser =() => {
         const userData = {
             username: inputValues.username,
             name: inputValues.name,
@@ -53,7 +53,7 @@ const AddUser = () => {
             }
         };
 
-        await mutate(userData);
+     mutate(userData);
         router.push("/users");
     };
 

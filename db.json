@@ -229,29 +229,6 @@
         "bs": ""
       },
       "id": 11
-    },
-    {
-      "username": "Noura Bdr Aldeen",
-      "name": "",
-      "email": "nourabdraldeen55@gmail.com",
-      "phone": "+963951578236",
-      "website": "https://noura.com",
-      "address": {
-        "street": "Hazzeh",
-        "city": "Damascus",
-        "suite": "",
-        "zipcode": "",
-        "geo": {
-          "lat": "",
-          "lng": ""
-        }
-      },
-      "company": {
-        "name": "Misraj",
-        "catchPhrase": "Misraj",
-        "bs": "Misraj"
-      },
-      "id": 12
     }
   ]
 }
