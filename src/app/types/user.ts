@@ -9,3 +9,4 @@ export type User = {
     company: { name: string, catchPhrase: string, bs: string }
   }
   
+export  type CreateUserPayload = Omit<User , 'id'>

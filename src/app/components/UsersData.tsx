@@ -4,13 +4,7 @@ import CardUser from "./CardUser";
 import { Grid } from "@mui/material";
 import useGetUser  from "../hook/useGetUser";
 import ButtonPagination from "./buttonPagination";
-
-
-type User = {
-    id: number;
-    username: string;
-    company: { name: string };
-};
+import { User } from "../types/user";
 
 
 export const UsersData = () => {

@@ -3,6 +3,7 @@ import { Card, CardContent, Avatar } from "@mui/material";
 
 
 
+
 const UserDetails = ({ user }) => {
     return (
         <Grid container spacing={3} sx={{ padding: 4, width: "80%" }}>
