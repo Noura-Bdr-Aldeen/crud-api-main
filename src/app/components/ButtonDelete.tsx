@@ -8,8 +8,15 @@ import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import { useState } from 'react';
 import { useDeleteUser } from '../hook/useDeleteUser';
 import { SnackbarProvider } from 'notistack'
+import { User } from '../types/user';
+import { SyntheticEvent } from 'react';
 
-export const ButtonDelete = ({ user }) => {
+
+type Props = {
+    user: User
+}
+
+export const ButtonDelete = ({ user }: Props) => {
     const [openAlert, setOpenAlert] = useState(false);
     const [openConfirmDialog, setOpenConfirmDialog] = useState(false);
 
@@ -25,13 +32,13 @@ export const ButtonDelete = ({ user }) => {
         setOpenAlert(true);
     };
 
-    const handleCloseAlert = (event: React.SyntheticEvent, reason?: string) => {
+    const handleCloseAlert = (event: Event | SyntheticEvent<any, Event>, reason?: string) => {
         if (reason === 'clickaway') {
-            return;
+          return;
         }
         setOpenAlert(false);
-    };
-
+      };
+      
 
     const handleCloseConfirmDialog = () => {
         setOpenConfirmDialog(false);

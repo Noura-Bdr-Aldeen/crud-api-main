@@ -8,11 +8,13 @@ import { IconButton } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
 import { urlImage } from "../../api/constant"
 import { ButtonDelete } from './ButtonDelete';
+import { User } from '../types/user';
 
+type Props = {
+    user: User
+}
 
-
-
-const CardUser = ({ user }) => {
+const CardUser = ({ user }: Props) => {
 
     return (
         <Card sx={{ maxWidth: 300 }}>

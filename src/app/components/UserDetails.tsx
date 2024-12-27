@@ -1,10 +1,10 @@
 import { Typography, Grid, Box } from "@mui/material";
 import { Card, CardContent, Avatar } from "@mui/material";
+import { User } from "../types/user";
 
 
 
-
-const UserDetails = ({ user }) => {
+const UserDetails = ({ user }: { user: User }) => {
     return (
         <Grid container spacing={3} sx={{ padding: 4, width: "80%" }}>
 

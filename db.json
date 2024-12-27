@@ -229,29 +229,6 @@
         "catchPhrase": "",
         "bs": ""
       }
-    },
-    {
-      "username": "sham ",
-      "name": "Noura",
-      "email": "Shanna@melissa.tv",
-      "phone": "+963951578236",
-      "website": "https://noura.com",
-      "address": {
-        "street": "Hazzeh",
-        "city": "Damascus",
-        "suite": "",
-        "zipcode": "",
-        "geo": {
-          "lat": "",
-          "lng": ""
-        }
-      },
-      "company": {
-        "name": "Misraj",
-        "catchPhrase": "Misraj",
-        "bs": "Misraj"
-      },
-      "id": 12
     }
   ]
 }
